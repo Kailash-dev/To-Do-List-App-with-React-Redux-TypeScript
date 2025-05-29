@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import type { RootState } from './store'
-import { addTodo, toggleTodo, removeTodo } from './todoSlice'
+import type { RootState } from './store/store'
+import { addTodo, toggleTodo, removeTodo } from './store/todoSlice'
 import './App.css'
 
 function App() {
